@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  getAllTodos: [Todo!]!
+  getTodoById(id: Int!): Todo
+}
+
+type Todo {
+  id: Int!
+  text: String!
+}
